@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "archives.tater.teamspawnpoint.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DimensionTransitionMixin",
+		"EndPortalBlockMixin",
+		"ServerPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

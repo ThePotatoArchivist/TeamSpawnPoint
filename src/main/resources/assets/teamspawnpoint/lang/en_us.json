@@ -1,0 +1,3 @@
+{
+  "commands.teamspawnpoint.setteamspawn.success": "Set the team spawn point for %s to %s, %s, %s"
+}

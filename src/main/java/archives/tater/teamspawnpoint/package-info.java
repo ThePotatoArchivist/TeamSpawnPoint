@@ -1,0 +1,4 @@
+@MethodsReturnNonnullByDefault
+package archives.tater.teamspawnpoint;
+
+import net.minecraft.MethodsReturnNonnullByDefault;
