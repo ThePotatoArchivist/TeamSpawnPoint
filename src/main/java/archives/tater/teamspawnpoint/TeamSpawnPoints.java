@@ -39,6 +39,7 @@ public class TeamSpawnPoints extends SavedData {
 
     public void set(PlayerTeam team, BlockPos spawnpoint) {
         spawnpoints.put(team.getName(), spawnpoint);
+        setDirty();
     }
 
     public @Nullable BlockPos get(@Nullable PlayerTeam team) {
